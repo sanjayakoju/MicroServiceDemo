@@ -20,6 +20,12 @@ public class ApiGatewayApplication {
 						.uri("lb://QUIZ-SERVICE"))
 				.route("question-service", r -> r.path("/question/**")
 						.uri("lb://QUESTION-SERVICE"))
+				.route("user-service" , r -> r.path("/users/**")
+						.uri("lb://USER-SERVICE"))
+				.route("hotel-service", r -> r.path("/hotels/**")
+						.uri("lb://HOTEL-SERVICE"))
+				.route("rating-service", r -> r.path("/ratings/**")
+						.uri("lb://RATING-SERVICE"))
 				.build();
 	}
 
