@@ -17,6 +17,7 @@
         <module>UserService</module>
         <module>HotelService</module>
         <module>RatingService</module>
+        <module>ConfigServer</module>
     </modules>
 
 </project>

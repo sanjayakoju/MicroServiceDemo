@@ -11,6 +11,7 @@
         <module name="HotelService" />
         <module name="UserService" />
         <module name="ServiceRegistry" />
+        <module name="ConfigServer" />
         <module name="QuestionService" />
         <module name="RatingService" />
         <module name="ApiGateway" />
@@ -20,6 +21,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="ApiGateway" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
       <module name="HotelService" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
       <module name="QuizSerive" options="-parameters" />

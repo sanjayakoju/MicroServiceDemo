@@ -1,0 +1,17 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: CONFIG-SERVER
+
+## Load config from the git repo
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:sanjayakoju/MicroService-config.git
+          clone-on-start: true
+          username: sanjayakoju
+#          ignore-local-ssh-settings: true
+          password: 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

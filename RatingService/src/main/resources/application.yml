@@ -19,6 +19,7 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 
+# This config fetch from Config Server git repo
 eureka:
   client:
     service-url:
