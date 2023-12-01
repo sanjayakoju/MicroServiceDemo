@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 public class Rating {
 
     private Long id;
-    private User userId;
-    private String hotelId;
+    private Long userId;
+    private Long hotelId;
     private int rating;
     private String feedback;
 

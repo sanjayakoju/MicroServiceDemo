@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9273984-e651-4517-bf51-3d7c92153dc1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/entity/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/integration/HotelServiceFeignClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/ratingservice/entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/ratingservice/entity/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RatingService/src/main/java/com/ratingservice/controller/RatingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/RatingService/src/main/java/com/ratingservice/controller/RatingController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/entity/Rating.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/entity/Rating.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/integration/HotelServiceFeignClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/java/com/userservice/integration/HotelServiceFeignClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/UserService/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +67,11 @@
     "project.structure.side.proportion": "0.16920471",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="ReactorSettings">
@@ -231,7 +228,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701386041238</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implemented config server">
+      <option name="closed" value="true" />
+      <created>1701407918578</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701407918578</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,21 +244,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Route config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Route config" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RatingService/src/main/java/com/ratingservice/controller/RatingController.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Implemented config server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented config server" />
   </component>
 </project>

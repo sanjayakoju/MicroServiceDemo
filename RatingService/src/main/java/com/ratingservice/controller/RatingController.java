@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/ratings")
 public class RatingController {
@@ -35,13 +37,13 @@ public class RatingController {
         return new ResponseEntity<>(ratingService.getAll(), HttpStatus.OK);
     }
 
-    @GetMapping("/user")
-    public ResponseEntity<?> getByAllByUserId(@RequestParam Long userId) {
+    @GetMapping("/users/{userId}")
+    public ResponseEntity<List<Rating>> getByAllByUserId(@PathVariable Long userId) {
         return new ResponseEntity<>(ratingService.getAllByUserId(userId), HttpStatus.OK);
     }
 
-    @GetMapping("/hotel")
-    public ResponseEntity<?> getByAllByHotel(@RequestParam Long hotelId) {
+    @GetMapping("/hotels/{hotelId}")
+    public ResponseEntity<List<Rating>> getByAllByHotel(@PathVariable Long hotelId) {
         return new ResponseEntity<>(ratingService.getAllByHotelId(hotelId), HttpStatus.OK);
     }
 }
