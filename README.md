@@ -11,6 +11,9 @@
 * Use Config Client
 * Resilience4J Circuit breaker used for fault tolerance
 * ```http://localhost:8091/actuator/health```
+* Only Client in set in UserService
+* Only from userService hotelService and ratingService API can call
+* Couldn't able to directly call the hotelService and ratingService API
 
 ## Jmeter for mac
 * download and navigate to bin directory
