@@ -21,7 +21,9 @@ public class SecurityConfig {
     SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity http) {
         http
                 .authorizeExchange((exchanges) -> exchanges
-                        .pathMatchers("/users/**").permitAll()
+                        .pathMatchers("/quiz/**").permitAll()
+                        .pathMatchers("//quiz-test//**").permitAll()
+                        .pathMatchers("/question/**").permitAll()
                         .anyExchange().authenticated()
                 )
                 .oauth2Client(Customizer.withDefaults()) // Configure OAuth2 client with default settings
